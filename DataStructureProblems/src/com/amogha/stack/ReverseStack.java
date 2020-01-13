@@ -32,11 +32,11 @@ public class ReverseStack {
 
 	private static Stack<Integer> initStack() {
 		Stack<Integer> stack = new Stack<>();
-		stack.add(1);
-		stack.add(2);
-		stack.add(3);
-		stack.add(4);
-		stack.add(5);
+		stack.push(1);
+		stack.push(2);
+		stack.push(3);
+		stack.push(4);
+		stack.push(5);
 		return stack;
 	}
 }
